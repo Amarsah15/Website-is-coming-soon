@@ -40,7 +40,7 @@ You only need a web browser to view this page.
 
 1.  **Clone the repository (or download the `index.html` file):**
     ```bash
-    git clone [https://github.com/Amarsah15/Website-is-coming-soon.git](https://github.com/Amarsah15/Website-is-coming-soon.git)
+    git clone https://github.com/Amarsah15/Website-is-coming-soon.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -82,7 +82,7 @@ Don't forget to give the project a star! ⭐
 
 ## 📧 Contact
 
-Amarnath Kumar - [gsah150803@gmail.com] - [[Your Website/Portfolio Link](https://portfolio-indol-seven-75.vercel.app/)]
+Amarnath Kumar - [[Portfolio Link](https://portfolio-indol-seven-75.vercel.app/)]
 
 Project Link: [https://github.com/Amarsah15/Website-is-coming-soon](https://github.com/Amarsah15/Website-is-coming-soon)
 
