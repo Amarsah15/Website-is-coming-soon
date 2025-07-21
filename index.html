@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e3a8a, #9333ea);
+        }
+    </style>
+</head>
+
+<body class="h-screen flex items-center justify-center text-white font-sans">
+    <div class="bg-white/10 backdrop-blur-lg p-10 rounded-3xl shadow-xl text-center max-w-lg w-full animate-fade-in">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+            Website Coming Soon!
+        </h1>
+        <p class="text-lg text-white/90 mb-6">
+            We're working hard to launch our amazing website. Stay tuned!
+        </p>
+        <button
+            class="px-6 py-2 rounded-full bg-white text-indigo-700 font-semibold hover:bg-indigo-100 transition duration-300"
+            onclick=(openmywebsite())
+        >
+            Notify Me
+        </button>
+    </div>
+    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-sm text-white/70">
+        &copy; 2025 Amarnath Kumar. All rights reserved.
+    </div>
+    <!-- Animation -->
+    <style>
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fade-in {
+            animation: fade-in 1s ease-out;
+        }
+    </style>
+</body>
+<script>
+    function openmywebsite() {
+        window.location.href = "https://portfolio-indol-seven-75.vercel.app/";
+    }
+</script>
+
+</html>
